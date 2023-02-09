@@ -1,5 +1,19 @@
 # Django Authentication using Django Rest Framework
 
+
+## Preparation
+
+1. Fork and clone this repository **into the `django-env` folder**.
+ [FAQ](https://git.generalassemb.ly/ga-wdi-boston/meta/wiki/ForkAndClone)
+2. Run `pipenv shell` **inside the `django-env` folder** to start up your
+ virtual environment.
+3. Change into this repository's directory
+4. Create a psql database with `createdb "django-authentication"`
+5. Run the server with `python manage.py runserver`
+
+
+## Authentication with Django
+
 We will be using **session based authentication** along with **django-rest-framework** in our web application by leveraging the built-in Django session framework.
 
 WHY YOU SHOULD AVOID **JWT** FOR DJANGO REST FRAMEWORK AUTHENTICATION
