@@ -8,7 +8,7 @@
 2. Run `pipenv shell` **inside the `django-env` folder** to start up your
  virtual environment.
 3. Change into this repository's directory
-4. Create a psql database with `createdb "django-authentication"`
+4. Create a psql database with `createdb "django-auth"`
 5. Run the server with `python manage.py runserver`
 
 
