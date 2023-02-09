@@ -192,7 +192,7 @@ localhost:8000/login/**
 
 <br><br>
 
-## 6) Django Admin Portal
+### 6) Django Admin Portal
 
 Go to **localhost:8000/admin/** to see the most magical thing:
 
@@ -212,7 +212,7 @@ Let's make a user so we can test our Login functions:
 
 **Create a user.**
 
-## 7) Login with User
+### 7) Login with User
 
 Test your new user in postman by sending a **POST** request to
 
@@ -229,7 +229,7 @@ If we will persist that session cookie in each request, our user will be persist
 
 <br><br>
 
-### 8) SignUp View
+### 8) Create SignUp View
 
 We can create a new user in the admin portal... great. 
 Now we need an endpoint to collect user info for the first time.
@@ -314,7 +314,7 @@ Can you login and get a cookie with your new user?
 
 
 
-### 9) Logout
+### 9) Create Logout View
 
 Add the following to `views.py` to use the build in logout method provided by Django:
 
